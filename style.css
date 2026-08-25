@@ -25,15 +25,28 @@ body {
 }
 
 #inicio{
-    padding-left: 650px;
+    padding-left: 450px;
     color: white;
 
+}
+
+#solucoes{
+    padding-left: 100px;
+    color: white;
+}
+
+#solucoes:hover {
+    color: grey;
+    display: flex;    
+    
 }
 
 #catalogo{
     padding-left: 100px;
     color: white;
 }
+
+
 
 #contato{
     padding-left: 100px;
