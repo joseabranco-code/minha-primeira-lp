@@ -5,10 +5,38 @@
 }
 
 body {
-    background-color: bisque;
+ background-color: white;   
 }
 
-#felipe {
-    width: 20vw;
-    height: 45vh;
+.pai{
+    display: flex;
+    align-items: center
 }
+
+#barra{ 
+    height: 75px;
+    background-color: #EE4D2D;
+}
+
+#marca{
+    padding-left: 20px;
+    color: white;
+    
+}
+
+#inicio{
+    padding-left: 650px;
+    color: white;
+
+}
+
+#catalogo{
+    padding-left: 100px;
+    color: white;
+}
+
+#contato{
+    padding-left: 100px;
+    color:white
+}
+
