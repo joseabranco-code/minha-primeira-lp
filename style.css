@@ -10,7 +10,8 @@ body {
 
 .pai{
     display: flex;
-    align-items: center
+    align-items: center;
+    
 }
 
 #barra{ 
@@ -36,10 +37,18 @@ body {
 }
 
 #solucoes:hover {
+
+    background-color: aqua;
     color: grey;
     display: flex;    
-    
+
 }
+
+#divisinha {
+    background-color: black;
+}
+
+
 
 #catalogo{
     padding-left: 100px;
