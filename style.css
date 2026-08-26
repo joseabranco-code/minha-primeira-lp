@@ -20,45 +20,43 @@ body {
 }
 
 #marca{
-    padding-left: 20px;
+    margin-left: 20px;
     color: white;
     
 }
 
 #inicio{
-    padding-left: 450px;
+    margin-left: 550px;
     color: white;
 
 }
 
-#solucoes{
-    padding-left: 100px;
+#solucoes {
+
+    margin-left: 75px;
     color: white;
 }
 
 #solucoes:hover {
-
+    display: block;
     background-color: aqua;
-    color: grey;
-    display: flex;    
+    color: grey;    
 
 }
 
-#divisinha {
-    background-color: black;
+.opcoes{
+    display: none;
 }
-
-
 
 #catalogo{
-    padding-left: 100px;
+    margin-left: 75px;
     color: white;
 }
 
 
 
 #contato{
-    padding-left: 100px;
+    margin-left: 75px;
     color:white
 }
 
