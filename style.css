@@ -5,7 +5,7 @@
 }
 
 body {
- background-color: white;   
+    background-color: white;   
 }
 
 .pai{
@@ -83,4 +83,29 @@ body {
     color: white;
 }
 
+#f{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    position: fixed;
+    width: 100vw;
+    height: 10vw;   
+    background-color: #EE4D2D;
+    color: white;
+}
 
+#logo{
+    height: 8vw;
+    margin-left: 10vw;
+}
+
+#div2{
+    margin-left: 30vw;
+    height: 8vw;
+}
+
+#div3{
+    margin-left: 15vw;
+    height: 8vw;
+}
