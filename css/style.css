@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: white;   
+    background-color: #5F65ED;   
 }
 
 .pai{
@@ -16,10 +16,11 @@ body {
 
 #barra{ 
     height: 75px;
-    background-color: #EE4D2D;
+    background-color: #141770;
 }
 
 #marca{
+    font-family: monospace;
     margin-left: 20px;
     color: white;
     
@@ -51,8 +52,7 @@ body {
     width: 350px;
     height: 100px;
     display: block;
-    background-color: #C23A1F;
-    border: 1px solid white;
+    background-color: #141770;
     color: white;    
     
 }
@@ -70,16 +70,18 @@ body {
 }
 
 #button{
+    padding: 10px;
     margin-left: 50px;
-    border: 1px solid black;
-    background-color: #EE4D2D;
+    border: 1px solid white;
+    background-color: #141770;
     color: white;
 }
 
 #button2{
+    padding: 10px;
     margin-left: 20px;
-    border: 1px solid black;
-    background-color: #EE4D2D;
+    border: 1px solid white;
+    background-color: #141770;
     color: white;
 }
 
@@ -91,7 +93,7 @@ body {
     position: fixed;
     width: 100vw;
     height: 15vw;   
-    background-color: #EE4D2D;
+    background-color: #141770;
     color: white;
 }
 
@@ -126,4 +128,9 @@ body {
 
 .a{
     margin-top: 1vw;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
