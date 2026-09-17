@@ -1,0 +1,214 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: #5F65ED;   
+}
+
+.pai{
+    display: flex;
+    align-items: center;
+    
+}
+
+#barra{ 
+    height: 75px;
+    background-color: #141770;
+}
+
+#marca{
+    font-family: monospace;
+    margin-left: 20px;
+    color: white;
+    
+}
+
+#inicio{
+    margin-left: 400px;
+    color: white;
+
+}
+
+#solucoes {
+
+    margin-left: 75px;
+    color: white;
+}
+
+#solucoes ul li{
+    list-style: none;
+    
+}
+
+#drop{
+    display: none;
+    position: absolute;
+}
+
+#solucoes:hover #drop{
+    width: 350px;
+    height: 100px;
+    display: block;
+    background-color: #141770;
+    color: white;    
+    
+}
+
+#catalogo{
+    margin-left: 75px;
+    color: white;
+}
+
+
+
+#contato{
+    margin-left: 75px;
+    color:white
+}
+
+#button{
+    padding: 10px;
+    margin-left: 50px;
+    border: 1px solid white;
+    background-color: #141770;
+    color: white;
+}
+
+#button2{
+    padding: 10px;
+    margin-left: 20px;
+    border: 1px solid white;
+    background-color: #141770;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h2 :hover{
+    background-color: #0b0d3d;
+}
+
+#divisinha{
+    margin: 0 auto;
+    margin-top: 3vw;
+    height: 19vh;
+    width: 99%;
+    background-color: #0b0d3d;
+    border-radius: 5px;
+}
+
+main{
+    display: flex;
+}
+
+#precos{
+    margin-top: 9vh;
+    height: 58vh;
+    width: 58vw;
+}
+
+.div-horizontal {
+    justify-content: center;
+    display: flex;
+    margin-left: 15px;
+    gap: 150px;  
+    text-align: center;
+}
+
+
+#p1 {
+    padding-top: 15px;
+    font-family: sans-serif;
+    color: white;
+    
+}
+
+#santos{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 125px;
+    height: 125px;
+}
+
+#p2 {
+    padding-top: 15px;
+    font-family: sans-serif;
+    color: white;
+    
+}
+
+#p3 {
+    padding-top: 15px;
+    font-family: sans-serif;
+    color: white;
+    
+}
+
+#p4 {
+    padding-top: 15px;
+    font-family: sans-serif;
+    color: white;
+    
+}
+
+#p5 {
+    padding-top: 15px;
+    font-family: sans-serif;
+    color: white;
+    
+}
+
+#p6 {
+    padding-top: 15px;
+    font-family: sans-serif;
+    color: white;
+    
+}
+
+#imagem{
+    margin-top: 9vh;
+    height: 58vh;
+    width: 58vw;
+}
+
+#cou{
+    border: 2px solid white;
+    margin-left: 150px;
+    width: 250px;
+    height: 58vh;
+}
+
+.div-h{
+    display: flex;
+    gap: 150px;
+}
+
+#f{
+    margin-top: 15vh;
+    bottom: 0;
+    width: 100%;
+    height: 75vh;   
+    background-color: #141770;
+}
+
+#pele{
+    width: 200px;
+    height: 200px;
+}
+
+#pre1{
+    padding-top: 10vh;
+    padding-left: 15vh;
+}
+
+#text{
+    margin-top: 60px;
+    color: white;
+    text-align: center;
+}
